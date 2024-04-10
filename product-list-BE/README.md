@@ -1,6 +1,26 @@
-## Product List
+# Backend Setup
 
+## Prerequisites
 
-This project has been created by a student at Parsity, an online software engineering course. The work in this repository is wholly of the student based on a sample starter project that can be accessed by looking at the repository that this project forks.
+## Dependencies
 
-If you have any questions about this project or the program in general, visit [parsity.io](https://parsity.io/) or email hello@parsity.io.
+- [Node.js](https://nodejs.org/) - JavaScript runtime environment.
+- [MongoDB](https://www.mongodb.com/) - NoSQL database.
+- [Mongoose](https://mongoosejs.com/) - MongoDB object modeling for Node.js.
+
+## Installation
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+To start the backend server, run: npm start
+
+The server will run on port 8000 by default.
+
+Modify the MongoDB connection string in app.js if needed.
+
+Update routes and middleware as per your application requirements.
